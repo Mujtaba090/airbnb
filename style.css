@@ -1,4 +1,4 @@
-/* Base Styles */
+
 :root {
     --primary-color: #FF5A5F;
     --secondary-color: #008489;
@@ -41,7 +41,6 @@ img {
     padding: 0 20px;
 }
 
-/* Navigation Bar */
 .navbar {
     position: sticky;
     top: 0;
@@ -187,7 +186,7 @@ img {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Hero Banner */
+
 .hero-banner {
     height: 70vh;
     background-image: url('https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80');
@@ -244,7 +243,6 @@ img {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Categories Section */
 .categories {
     padding: 60px 0;
 }
@@ -284,7 +282,6 @@ img {
     font-weight: 500;
 }
 
-/* Featured Listings */
 .featured-listings {
     padding: 60px 0;
     background-color: var(--light-color);
@@ -361,7 +358,6 @@ img {
     margin-top: 10px;
 }
 
-/* Experiences Section */
 .experiences {
     padding: 60px 0;
 }
@@ -415,7 +411,6 @@ img {
     font-size: 14px;
 }
 
-/* Footer */
 footer {
     background-color: var(--dark-color);
     color: var(--white);
@@ -490,7 +485,6 @@ footer {
     background-color: var(--primary-color);
 }
 
-/* Responsive Design */
 @media (max-width: 1200px) {
     .search-input input {
         width: 150px;

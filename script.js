@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Search options toggle
     const searchOptions = document.querySelectorAll('.search-option');
     
     searchOptions.forEach(option => {
@@ -8,8 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
             this.classList.add('active');
         });
     });
-    
-    // Favorite button toggle
+
     const heartButtons = document.querySelectorAll('.heart-btn');
     
     heartButtons.forEach(button => {
@@ -29,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
@@ -47,15 +44,13 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Mobile menu toggle (would be more functional with actual mobile menu)
     const userMenu = document.querySelector('.user-menu');
     if (userMenu) {
         userMenu.addEventListener('click', function() {
             alert('Mobile menu would open here in a full implementation');
         });
     }
-    
-    // Language selector interaction
+
     const languageSelector = document.querySelector('.language-selector');
     if (languageSelector) {
         languageSelector.addEventListener('click', function() {
