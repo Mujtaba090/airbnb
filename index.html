@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb Redesign</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">
+                <i class="fab fa-airbnb"></i>
+                <span>airbnb</span>
+            </a>
+            
+            <div class="search-bar">
+                <div class="search-option active">Stays</div>
+                <div class="search-option">Experiences</div>
+                <div class="search-option">Online Experiences</div>
+                
+                <div class="search-input">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Where are you going?">
+                </div>
+                
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                    <span>Search</span>
+                </button>
+            </div>
+            
+            <div class="user-actions">
+                <a href="#" class="become-host">Become a Host</a>
+                <div class="language-selector">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="user-menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Banner -->
+        <section class="hero-banner">
+            <div class="hero-content">
+                <h1>Find your perfect getaway</h1>
+                <p>Discover entire homes and private rooms perfect for any trip</p>
+                <button class="explore-btn">Explore nearby stays</button>
+            </div>
+        </section>
+        
+        <!-- Categories Section -->
+        <section class="categories">
+            <h2>Live anywhere</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+                    </div>
+                    <h3>Outdoor getaways</h3>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+                    </div>
+                    <h3>Unique stays</h3>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1680&q=80');">
+                    </div>
+                    <h3>Entire homes</h3>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+                    </div>
+                    <h3>Pets allowed</h3>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Featured Listings -->
+        <section class="featured-listings">
+            <h2>Featured destinations</h2>
+            <div class="listings-grid">
+                <div class="listing-card">
+                    <div class="listing-img" style="background-image: url('https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+                        <button class="heart-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="listing-info">
+                        <div class="location-rating">
+                            <span>Paris, France</span>
+                            <span><i class="fas fa-star"></i> 4.92</span>
+                        </div>
+                        <p>Luxury apartment with Eiffel Tower view</p>
+                        <p class="price">$120 night</p>
+                    </div>
+                </div>
+                
+                <div class="listing-card">
+                    <div class="listing-img" style="background-image: url('https://images.unsplash.com/photo-1518391846015-55a9cc003b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+                        <button class="heart-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="listing-info">
+                        <div class="location-rating">
+                            <span>Bali, Indonesia</span>
+                            <span><i class="fas fa-star"></i> 4.85</span>
+                        </div>
+                        <p>Private villa with infinity pool</p>
+                        <p class="price">$250 night</p>
+                    </div>
+                </div>
+                
+                <div class="listing-card">
+                    <div class="listing-img" style="background-image: url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+                        <button class="heart-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="listing-info">
+                        <div class="location-rating">
+                            <span>Tokyo, Japan</span>
+                            <span><i class="fas fa-star"></i> 4.89</span>
+                        </div>
+                        <p>Modern apartment in Shibuya</p>
+                        <p class="price">$90 night</p>
+                    </div>
+                </div>
+                
+                <div class="listing-card">
+                    <div class="listing-img" style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+                        <button class="heart-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="listing-info">
+                        <div class="location-rating">
+                            <span>New York, USA</span>
+                            <span><i class="fas fa-star"></i> 4.78</span>
+                        </div>
+                        <p>Cozy loft in Brooklyn</p>
+                        <p class="price">$110 night</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Experience Section -->
+        <section class="experiences">
+            <h2>Experiences</h2>
+            <p>Find unforgettable activities near you</p>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-img" style="background-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+                    </div>
+                    <h3>Cooking classes</h3>
+                    <p>Learn from local chefs</p>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-img" style="background-image: url('https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80');">
+                    </div>
+                    <h3>Guided tours</h3>
+                    <p>Discover hidden gems</p>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-img" style="background-image: url('https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+                    </div>
+                    <h3>Outdoor adventures</h3>
+                    <p>Hiking, biking and more</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Safety information</a></li>
+                    <li><a href="#">Cancellation options</a></li>
+                    <li><a href="#">Our COVID-19 Response</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Community</h4>
+                <ul>
+                    <li><a href="#">Disaster relief housing</a></li>
+                    <li><a href="#">Support refugees</a></li>
+                    <li><a href="#">Combating discrimination</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Hosting</h4>
+                <ul>
+                    <li><a href="#">Try hosting</a></li>
+                    <li><a href="#">AirCover for Hosts</a></li>
+                    <li><a href="#">Explore hosting resources</a></li>
+                    <li><a href="#">Visit our community forum</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="#">Newsroom</a></li>
+                    <li><a href="#">Learn about new features</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Investors</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-links">
+                <span>© 2023 Airbnb, Inc.</span>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Sitemap</a>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
